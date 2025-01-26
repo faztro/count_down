@@ -31,7 +31,7 @@ export default function Home() {
       <Title
         text={
           <>
-            Faztro <span>launching</span>
+            Faztro <span>Coming Soon</span>
             <br />
             at
           </>
