@@ -9,7 +9,7 @@ async function readLikes() {
   try {
     const data = await fs.readFile(DATA_FILE_PATH, "utf-8");
     return JSON.parse(data).likes;
-  } catch (error) {
+  } catch {
     // If file doesn't exist or is invalid, return 0
     return 0;
   }
